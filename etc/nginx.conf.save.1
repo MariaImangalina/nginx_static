@@ -1,0 +1,17 @@
+http {
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
+
+		listen     localhost:110;
+#		protocol   pop3;
+#		proxy      on;
+#	}
+   localhost:143;
+#		protocol   imap;
+#		proxy      on;
+#	}
+#}
